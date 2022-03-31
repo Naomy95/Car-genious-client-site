@@ -1,0 +1,33 @@
+.div-bg{
+    background-color: black;
+    height: 1000px;
+}
+
+.login-box{
+    margin-bottom: 500px;
+}
+.css-1oqqzyl-MuiContainer-root{
+    padding-right: 0px;
+}
+/* 
+@media only screen and (min-width:688px) and (max-width:991px) {
+  .login-box{
+      padding-left: 10px;
+  }
+} */
+
+@media only screen and (max-width:688px) {
+    .css-1oqqzyl-MuiContainer-root{
+        padding-right: 0px;
+    }
+    .div-bg{
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-width:688px) and (max-width:991px) {
+  .div-bg{
+      height: auto;
+  }
+}

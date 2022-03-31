@@ -1,0 +1,13 @@
+.text-container{
+    text-align: start;
+    margin-top: 100px
+  
+}
+
+@media only screen and (max-width:688px){
+    .text-container{
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+}
+
